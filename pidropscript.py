@@ -72,18 +72,18 @@ def check_connections():
 
 def renew_ip_address():
 	#Code to renew and flush IP address
-	print("Renewing and flushing IP addresses....")
+	print("Renewing & flushing all current connections...")
 	#Execute the command to renew and flush TP addresses
 	interfaces = netifaces.interfaces()
-	output = "Renewing and flushing IP addresses....\n"
+	output = "Renewing & flushing all current connections...\n"
 	display_output(output)
 	for interface in interfaces:
 		if interface.startswith(("eth", "wlan", "usb")):
 			result = subprocess.run(['sudo','ifdown', interface, '&&', 'sudo', 'ifup', interface, '&&', 'sudo', 'dhclient', interface], capture_output=True, text=True)
 			output += result.stdout
-		output +="IP addresses renewed and refreshed\n"
+		output +="All done - IP's renewed and refreshed\n"
 		display_output(output)
-	print("IP addresses renews and refreshed")
+	print("All done - IP's renewed and refreshed")
 	return output
 
 def display_output(output):
