@@ -32,11 +32,3 @@ Button Y - Blacks out the screen ( Usually the last button to press on a real re
 
 
 
-![image](https://github.com/brainspill3r/pidropscript.py/assets/68113403/4ce56ccb-6a0e-4847-92e3-5a6f6bca7b7c)
-
-![image](https://github.com/brainspill3r/pidropscript.py/assets/68113403/70a3a8d2-8f6e-463f-b298-fa35dc9896f7)
-
-![image](https://github.com/brainspill3r/pidropscript.py/assets/68113403/e6044e62-668c-4001-8e3e-925cbdf6ea3a)
-
-![image](https://github.com/brainspill3r/pidropscript.py/assets/68113403/28489011-4be9-480c-8b14-ac31f3d8b7e1)
-
