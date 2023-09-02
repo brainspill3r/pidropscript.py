@@ -1,12 +1,12 @@
 # pidropscript.py
-Pimoroni Display Hat Mini - Implant/Dropbox script - Using the four tacticle buttons to test connections/flush/renew IPS/Display Custom Image/ Make the screen go black 
+Pimoroni Display Hat Mini - Implant/Dropbox script - Using the four tacticle buttons to test connections/flush/renew IP'S/Display Custom Image/ Make the screen go black 
 
 Enable root login at startup, so that any of the commands we do throughout the entire process and when the dropbox is finished has no complications. 
 *please note best practice is to have a user, but for ease of something not going wrong because of a issue with permissions, I prefer to use auto login as root to avoid any issues. 
 
 CMD = sudo nano /etc/lightdm/lightdm.conf
 
-CMD = uncomment  #autologin-user=root (you may have to type in root if missing)
+CMD = uncomment #autologin-user=root (you may have to type in root if missing)
 
 CMD =sudo reboot
 On reboot we will be root. 
